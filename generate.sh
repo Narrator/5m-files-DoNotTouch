@@ -5,7 +5,7 @@ target_dir="./files"
 mkdir -p "$target_dir"
 
 # Number of files to create
-num_files=150000
+num_files=120000
 
 # File size in KB
 file_size_kb=10
