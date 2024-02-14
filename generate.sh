@@ -5,10 +5,10 @@ target_dir="./files"
 mkdir -p "$target_dir"
 
 # Number of files to create
-num_files=120000
+num_files=130000
 
 # File size in KB
-file_size_kb=400
+file_size_kb=1
 
 for i in $(seq 1 $num_files); do
     # Use /dev/urandom to generate random data and head to limit to 10KB
